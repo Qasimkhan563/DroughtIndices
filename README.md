@@ -114,19 +114,19 @@ print(sdci)
 
 Visualize any raster layer with a color gradient from green to yellow to red:
 
-# Visualize the Precipitation raster
+## Visualize the Precipitation raster
 
 visualize_raster(precipitation_raster)
 
-# Visualize the NDVI raster
+## Visualize the NDVI raster
 
 visualize_raster(ndvi)
 
-# Visualize the LST raster
+## Visualize the LST raster
 
 visualize_raster(last)
 
-# Visualize the SDCI raster
+## Visualize the SDCI raster
 
 visualize_raster(sdci)
 
