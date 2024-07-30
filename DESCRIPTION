@@ -1,0 +1,18 @@
+Package: DroughtIndices
+Type: Package
+Title: Drought Indices Calculation Using Remote Sensing Data
+Version: 0.1.0
+Author: Muhammad Qasim <mqasim@uni-muenster.de>
+Maintainer: Muhammad Qasim <mqasim@uni-muenster.de>
+Description: This package calculates various drought indices such as NDVI, VCI, TCI, PCI, and SDCI using remote sensing data. It provides tools for reading input rasters, computing indices, and exporting results. The package includes a vignette that demonstrates the usage of these functions using the Banadir and Shabelle regions of Somalia as a case study.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    raster,
+    rasterVis
+Suggests:
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+RoxygenNote: 7.3.2
